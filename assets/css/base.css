@@ -1,0 +1,18 @@
+:root {
+    --text-color : #555;
+    --text-primary-color : #222;
+    --text-second-color: #f65e39; 
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Bitter', serif;
+    box-sizing: border-box;
+    margin: 0;
+}
