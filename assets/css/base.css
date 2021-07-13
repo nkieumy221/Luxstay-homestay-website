@@ -2,6 +2,7 @@
     --text-color : #555;
     --text-primary-color : #222;
     --text-second-color: #f65e39; 
+    --header-height : 80px;
 }
 
 * {
@@ -15,4 +16,42 @@ html {
     font-family: 'Bitter', serif;
     box-sizing: border-box;
     margin: 0;
+    color: var(--text-primary-color);
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}
+
+/* Title Panel */
+.title-panel__name {
+    font-weight: 800;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.title-panel__name--xl {
+    font-size: 2.6rem;
+}
+
+.title-panel__content {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.title-panel__content a {
+    color: var(--text-primary-color);
 }
