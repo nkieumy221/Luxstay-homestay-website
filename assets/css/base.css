@@ -31,6 +31,18 @@ html {
     margin-top: 56px;
 }
 
+.mt-48 {
+    margin-top: 48px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.none-decoration {
+    text-decoration: none;
+}
+
 /* Title Panel */
 .title-panel__name {
     font-weight: 800;
