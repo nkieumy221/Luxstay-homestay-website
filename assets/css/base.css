@@ -43,6 +43,11 @@ html {
     text-decoration: none;
 }
 
+.text-decoration {
+    text-decoration: underline !important;
+}
+
+
 /* Title Panel */
 .title-panel__name {
     font-weight: 800;

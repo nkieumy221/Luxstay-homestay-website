@@ -5,7 +5,7 @@
 }
 
 .grid.wide {
-    max-width: 1200px;
+    max-width: 1260px;
     margin: 0 auto;
 }
 
@@ -440,7 +440,7 @@
 /* Tablet - PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
     .wide {
-        width: 644px;
+        width: 744px;
     }
 }
 

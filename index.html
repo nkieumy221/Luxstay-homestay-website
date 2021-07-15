@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     
@@ -21,7 +21,7 @@
         <header class="header">
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-8 header-left ">
+                    <div class="col l-8 c-10 header-left ">
                         <div class="header__logo">
                             <a href="" class="header__logo-link">
                                 <svg version="1.1" viewBox="0 0 50 50" class="svg-icon svg-fill" style="width: 50px; height: 50px;">
@@ -48,7 +48,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4 header-right ">
+                    <div class="col l-4 c-2 header-right">
+                        <div class="header__navbar">
+                            <i class="header__navbar-icon fas fa-bars"></i>
+                        </div>
                         <nav class="header__function">
                             <ul class="header__list">
                                 <li class="header__item header__item--active">
@@ -70,6 +73,7 @@
                             </ul>
                         </nav>
                     </div>
+
                 </div>
                 
             </div>
@@ -81,7 +85,15 @@
                 <div class="row">
                     <div class="col l-12">
                         <div class="banner">
-                            <img class="banner-img" src="https://beta-api.luxstay.net/api/upload/file?storage=admins/12/LTO3WBl2KWqI5bwJre6PQ7do.jpg" alt="">
+                            <img class="banner-img" src="https://beta-api.luxstay.net/api/upload/file?storage=admins/12/LTO3WBl2KWqI5bwJre6PQ7do.jpg" alt="">                       
+                            <ul class="slick-dots">
+                                <li class="slick-dot slick-dot--active">
+                                    <button type="button"></button>
+                                </li>
+                                <li class="slick-dot">
+                                    <button type="button"></button>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -406,7 +418,7 @@
                                         <div class="footer__contact-item-content--title">
                                             Messenger
                                         </div>
-                                        <a href="" class="footer__contact-item-content--link">
+                                        <a href="" class="footer__item-link text-decoration">
                                             http://m.me/luxstay
                                         </a>
                                     </div>
@@ -424,10 +436,10 @@
                                         <div class="footer__contact-item-content--title">
                                             Call center
                                         </div>
-                                        <a href="" class="footer__contact-item-content--link none-decoration">
+                                        <a href="" class="footer__item-link">
                                             18006586 (Việt Nam)
                                         </a>
-                                        <a href="" class="footer__contact-item-content--link none-decoration">
+                                        <a href="" class="footer__item-link">
                                             0889866666
                                         </a>
                                     </div>
