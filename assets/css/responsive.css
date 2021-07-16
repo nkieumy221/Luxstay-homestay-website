@@ -12,7 +12,14 @@
     .header__navbar {
         display: block;
     }
-    
+
+    .sales-section {
+        position: relative;
+    }
+
+    .header__search-input {
+        width: auto;
+    }
 }
 
 /* Tablet */
@@ -22,15 +29,90 @@
     }
 
     /* header */
-    .header__search-input {
-        width: auto;
+    .c-silde-item {
+        width: 354px !important;
     }
+
+    .discover__item {
+        width: 674px !important;
+    }
+    
 
 }
 
 /* Mobile */
 @media (max-width:739px) {
+    :root {
+        --header-height: 70px;
+    }
+
     .hide-on-mobile {
         display: none;
+    }
+
+    .container {
+        margin-top: calc(var(--header-height) + 24px);
+        display: block;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .header.row {
+        display: flex;
+        align-items: center;
+    }
+
+    .title-panel {
+        margin-top: 32px;
+    }
+
+    .c-silde-item {
+        width: 340px !important;
+    }
+
+    .local__item-img {
+        min-height: 215px;
+    }
+
+    .local__item-content {
+        top: 120px;
+    }
+
+    .discover__item {
+        width: 340px !important;
+    }
+
+    .local__item-title {
+        font-size: 1.8rem;
+    }
+    
+    .discover__item-title {
+        margin-top: 0;
+        padding: 24px 24px 0;
+        text-shadow: 1px 1px 2px #222;
+    }
+
+    .logo-sm {
+        width: 150px;
+        margin-bottom: 18px;
+    }
+
+    .contact__item-heading {
+        font-size: 2rem;
+        margin-bottom: 18px;
+    }
+
+    .img-fluid {
+        width: auto;
+    }
+
+    .footer__policy {
+        margin-top: 15px;
+    }
+
+    .footer__policy-category {
+        margin-bottom: 15px;
     }
 }

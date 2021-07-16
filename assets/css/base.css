@@ -19,6 +19,10 @@ html {
     color: var(--text-primary-color);
 }
 
+.main {
+    overflow: hidden;
+}
+
 .mt-42 {
     margin-top: 42px;
 }
@@ -39,12 +43,30 @@ html {
     width: 100%;
 }
 
+.d-none {
+    display: none !important;
+}
+
 .none-decoration {
     text-decoration: none;
 }
 
 .text-decoration {
     text-decoration: underline !important;
+}
+
+.slide {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.silde-scoll {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.silde-scoll::-webkit-scrollbar {
+    display: none;
 }
 
 
