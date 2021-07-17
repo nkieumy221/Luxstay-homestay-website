@@ -496,7 +496,7 @@
     .wide .l-10,
     .wide .l-11,
     .wide .l-12 {
-        display: block;
+        display: flex;
     }
 
     .wide .l-1 {
